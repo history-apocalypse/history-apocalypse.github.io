@@ -1,0 +1,73 @@
+.sec2{
+	color: $main-color;
+	position: relative;
+height: 1270px;
+	padding-bottom: 92px;
+}
+.sec2__box{
+	position: absolute;
+	top: -85px;
+	left: 50%;
+	margin-left: -30%;
+	height: auto;
+	z-index: 1;
+	box-shadow: 0 0 12px 3px #adadad; 
+}
+.sec2__aboutUs{
+	display: flex;
+	flex-flow: column;
+	align-self: center;
+	align-items: center;
+	background-color: #fff;
+	padding: 49px 9% 83px;
+}
+.sec2__p{
+	font-family: "GothamPro";
+}
+.p_padding{
+	padding-bottom: 34px;
+}
+.sec2__icon{
+	margin-bottom: 45px;
+}
+
+.cite{
+	background: url(../img/line-bg1.png) center no-repeat;
+	background-size: cover;
+	padding: 109px 69px 114px;
+	position: relative;
+	font-family: $main-font;
+}
+.cite__text{
+	background-color: #fff;
+	font-size: 38px;
+	padding: 40px 76px;
+	text-align: center;
+}
+.cite__text span{
+	color: $main-color2;
+}
+.cite__text::before{
+	content: "";
+	@extend %quotes;
+	width: 25px;
+	height: 22px;
+	display: block;
+	position: absolute;
+	top: 58px;
+	left: 50%;
+	margin-left: -16px;
+}
+.cite__author{
+	background-color: #fff;
+	position: absolute;
+	bottom: 48px;
+	left: 50%;
+	margin-left: -68px;
+}
+.sec2__img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+}

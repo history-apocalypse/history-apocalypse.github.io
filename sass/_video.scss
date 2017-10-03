@@ -1,0 +1,35 @@
+.video{
+	width: 85%;
+	position: relative;
+}
+video {
+  width: 100%;
+	    max-width: 1275px;
+  height: auto;
+  max-height: 855px;
+	background: url(../img/vidget-A.jpg) center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.btn_play{
+	width: 408px;
+	height: 404px;
+	position: absolute;
+	top: 50%;
+	margin-top: -202px;
+	left: 41%;
+	margin-left: -204px;
+}
+.btn_play{
+	background: transparent;
+	outline: none;
+	opacity: 0;
+}
+.btn_visible{
+	display: block;
+	background: url(../img/svg/parts/playBtn.png) center no-repeat;
+	background-size: cover;
+	opacity: 1;
+	transform: scale(1.1);
+	transition: .6s ease-in-out;
+}

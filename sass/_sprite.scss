@@ -1,0 +1,30 @@
+%svg-common {
+	background: url("../img/svg/sprite.svg") no-repeat;
+}
+
+%fb {
+	@extend %svg-common;
+	background-position: 0 1%;
+}
+
+
+%lnkdn {
+	@extend %svg-common;
+	background-position: 0 27.35042735042735%;
+}
+
+%login {
+	@extend %svg-common;
+	background-position: 0 54.596328396915304%;
+}
+
+%quotes {
+	@extend %svg-common;
+	background-position: 0 75.30356750651062%;
+}
+
+%twtr {
+	@extend %svg-common;
+	background-position: 0 99.70847944568845%;
+}
+

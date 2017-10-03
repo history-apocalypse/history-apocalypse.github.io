@@ -1,0 +1,26 @@
+.header{
+	height: 105px;
+		display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.profile{
+	margin-left: 18%;
+	position: relative;
+	font-family: "GothamPro";
+	color: #6a6a6a;
+}
+.profile::before{
+	content: "";
+	display: block;
+//	background: url(../img/svg/parts/login.png) center no-repeat;
+	@extend %login;
+	width: 36px;
+	height: 32px;
+	position: absolute;
+	right: 47px;
+	top: -9px;
+}
+.header__social{
+	margin-right: 96px;
+}

@@ -1,0 +1,32 @@
+.sec4{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'PlayfairDisplay';
+}
+.sec4__directorsPhoto{
+	width: 40%;
+	height: 594px;
+	background: url(../img/bg-man.jpg) center no-repeat;
+	background-size: cover;
+	transition: 1s ease-in-out;
+}
+.sec4__directorsCite{
+	width: 56%;
+	background: url(../img/purpleLine-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: left;
+	padding: 154px 50px 84px 70px;
+	transition: 3s ease-in-out;
+	position: relative;
+}
+.directorsCite__h2{
+	text-align: left;
+	margin-bottom: 52px;
+}
+.directorsCite__p{
+	font-style: italic;
+	margin-bottom: 72px;
+	line-height: 1.524;
+}
+

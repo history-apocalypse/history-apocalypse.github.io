@@ -156,9 +156,6 @@
 	.profile {
 		margin-left: 25%;
 	}
-	.wraper {
-		width: 85%;
-	}
 	.layer_bg {
     background: url(../img/main-bg-900x468.jpg) bottom right no-repeat;
     background-size: cover;
@@ -175,11 +172,6 @@
 		left: 0;
 		text-align: center;
 	}
-	.sec2__box {
-		margin-left: -42%;
-		top: -61px;
-	}
-	
 	.cite__text {
 		font-size: 29px;
 	}
@@ -197,7 +189,12 @@
 @media screen and (max-width: 700px) {
 	.wraper {
 		width: 100%;
+		position: relative;
 	}
+		.sec2 {
+    height: auto;
+			padding-bottom: 0;
+}
 	.sec2__box {
 		margin-left: 0;
 		left: 0;
@@ -323,10 +320,5 @@
 }
 	.footer__text {
     padding-top: 86px;
-}
-}
-@media screen and (max-width: 360px){
-	.video {
-    margin-top: 123px;
 }
 }

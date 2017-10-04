@@ -1,10 +1,14 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
 	.layer_bg {
-//    background: url(../img/main-bg-forIE.jpg) bottom right no-repeat;
-     background: url(../img/main-bg-forIE2.jpg) bottom right no-repeat;
-	background-size: cover;
+    background: url(../img/main-bg-forIE.jpg) bottom right no-repeat;
+	background-size: cover;	
 }
+	.bunner__h1{
+	width: 77%;
+	}
 }
+
+
 
 @media screen and (max-width: 1700px){
 	.btn_play{
@@ -105,12 +109,13 @@
 	.cite {
 		padding: 98px 69px 93px;
 	}
+	.sec2__h2{
+		width: 100%;
+	}
 	.textBox_flex {
-		flex-direction: column;
-		align-items: center;
+		display: block;
 	}
 	.column_font {
-		width: 92%;
 		margin: 0;
 		text-align: center;
 	}
@@ -200,6 +205,9 @@
 		left: 0;
 		box-shadow: none;
 	}
+	.sec3__wraper{
+			padding: 0 5%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -274,7 +282,7 @@
 }
 @media screen and (max-width: 435px){
 	.bunner__h1 {
-    font-size: 63px;
+    font-size: 61px;
     text-align: center;
 }
 	.layer_bg, .sec1__bunner {

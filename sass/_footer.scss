@@ -15,12 +15,14 @@ footer{
 	padding-top: 126px;
 }
 .footer__logo{
+	background: url(../img/svg/parts/logo.svg) no-repeat;
+	background-size: cover;
+	width: 187px;
+	height: 124px;
 	position: absolute;
 	left: 50%;
 	margin-left: -93px;
 	top: -63px;
-	width: 186px;
-	height: auto;
 }
 .footer__p{
 	width: 30%;

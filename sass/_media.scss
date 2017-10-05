@@ -1,9 +1,9 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
 	.layer_bg {
-    background: url(../img/main-bg-forIE.jpg) bottom right no-repeat;
+    background: url(../img/main-bg-forIE2.jpg) bottom right no-repeat;
 	background-size: cover;	
 }
-	.bunner__h1{
+	.banner__h1{
 	width: 77%;
 	}
 }
@@ -16,7 +16,7 @@
 }
 }
 @media screen and (max-width: 1370px) {
-	.bunner__h1{
+	.banner__h1{
 	width: 100%;
 	}
 	.layer_god {
@@ -58,7 +58,7 @@
 	.nav__hamburger {
 		display: block;
 	}
-	.sec1__bunner {
+	.sec1__banner {
 		width: 100%;
 	}
 	.header__nav_open {
@@ -143,7 +143,7 @@
 	.layer_god {
 		width: 509px;
 	}
-	.bunner__h1 {
+	.banner__h1 {
 		font-size: 73px;
 	}
 	.footer__box {
@@ -170,7 +170,7 @@
 	.layer_god{
 		display: none;
 	}
-	.bunner__h1{
+	.banner__h1{
 		    top: 222px;
     padding: 0 15px;
     box-sizing: border-box;
@@ -232,7 +232,7 @@
 		height: 563px;
 	}
 	.layer_bg,
-	.sec1__bunner{
+	.sec1__banner{
 		height: 500px;
 	}
 	.layer_fog,
@@ -240,7 +240,7 @@
 	.layer_god{
 		display: none;
 	}
-	.bunner__h1 {
+	.banner__h1 {
     top: 24%;
     font-size: 68px;
 }
@@ -281,11 +281,11 @@
 	}
 }
 @media screen and (max-width: 435px){
-	.bunner__h1 {
+	.banner__h1 {
     font-size: 61px;
     text-align: center;
 }
-	.layer_bg, .sec1__bunner {
+	.layer_bg, .sec1__banner {
     height: 430px;
 }
 	.sec1{
